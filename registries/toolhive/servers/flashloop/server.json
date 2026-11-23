@@ -1,0 +1,64 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "io.github.stacklok": {
+        "https://mcp.flashloop.ai/mcp": {
+          "custom_metadata": {
+            "author": "La Viral Studio",
+            "homepage": "https://www.flashloop.ai/mcp"
+          },
+          "overview": "## Flashloop\n\nFlashloop's official hosted MCP server turns your AI assistant into an AI video and image studio over a streamable HTTP transport with OAuth sign-in. Generate short videos from a text prompt or a reference image, create up to 4 images per prompt, and keep characters, places and props consistent across a series with saved references. Turn a script into a voiceover in more than 70 languages, clone your own voice, upscale images and videos 2x or 4x, and assemble clips and voiceovers into one captioned video. Everything you make is saved to your Flashloop library, and generations use your Flashloop credits.",
+          "status": "Active",
+          "tags": [
+            "remote",
+            "oauth",
+            "ai-video",
+            "text-to-video",
+            "image-generation",
+            "text-to-speech",
+            "voiceover",
+            "voice-cloning",
+            "upscaling",
+            "video-editing"
+          ],
+          "tier": "Official",
+          "tools": [
+            "flashloop_create_video",
+            "flashloop_create_image",
+            "flashloop_generate_voiceover",
+            "flashloop_clone_voice",
+            "flashloop_change_voice",
+            "flashloop_translate_audio",
+            "flashloop_generate_music",
+            "flashloop_upscale",
+            "flashloop_assemble_video",
+            "flashloop_list_models",
+            "flashloop_estimate_cost",
+            "flashloop_get_credits",
+            "flashloop_list_generations"
+          ]
+        }
+      }
+    }
+  },
+  "description": "Create AI videos, images and voiceovers from your AI assistant",
+  "icons": [
+    {
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ],
+      "src": "https://raw.githubusercontent.com/La-Viral-Studio/flashloop-mcp-server/main/assets/logo.png"
+    }
+  ],
+  "name": "io.github.stacklok/flashloop",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flashloop.ai/mcp"
+    }
+  ],
+  "title": "Flashloop",
+  "version": "1.0.0"
+}
